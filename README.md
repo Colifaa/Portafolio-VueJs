@@ -6,9 +6,6 @@
 
 
 
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
-
-
 ## Features
 
 -   Simple and responsive design
