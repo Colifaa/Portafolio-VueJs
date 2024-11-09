@@ -112,7 +112,7 @@ export default {
 						id: 2,
 						name: 'Instagram',
 						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
+						url: 'https://instagram.com/',
 					},
 					{
 						id: 3,
@@ -130,7 +130,7 @@ export default {
 						id: 5,
 						name: 'Youtube',
 						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
+						url: '',
 					},
 				],
 			},
