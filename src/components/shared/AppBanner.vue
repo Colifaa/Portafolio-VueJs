@@ -31,17 +31,17 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Hi, Iam Stoman
+			Hola Soy Mathez Jorge Ali 👋
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A Full-Stack Developer & Design Enthusiast
+				Desarrollador Web y Desarrollador Blockchain
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
 					download="Stoman-Resume.pdf"
-					href="/files/Stoman-Resume.pdf"
+					href="https://drive.google.com/file/d/14nD3dWAWKl_kKnzA0uu6DMOuhdJYTUMG/view?usp=sharing"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>
@@ -61,12 +61,12 @@ export default {
 		<div class="w-full md:w-2/3 text-right float-right">
 			<img
 				v-if="theme === 'light'"
-				src="@/assets/images/developer.svg"
+				src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTR5d2p4ODBqdWpkMDJsZWVkazR1a3R4cW91M21jaWJrZG83cTcycCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JA7DTMu4ul2UM/giphy.webp"
 				alt="Developer"
 			/>
 			<img
 				v-else
-				src="@/assets/images/developer-dark.svg"
+				src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTFyM2FpaDV2OHhpNTluZmU4ZHRhdHJpcWM2Y2pjbWhwbWtxcnA0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1W40UWS9peSru/giphy.webp"
 				alt="Developer"
 			/>
 		</div>

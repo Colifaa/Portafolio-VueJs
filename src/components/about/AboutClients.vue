@@ -7,47 +7,47 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: 'Mis habilidades',
 			clients: [
 				{
 					id: 1,
 					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					img: require('@/assets/images/brands/git.svg'),
 				},
 				{
 					id: 2,
 					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					img: require('@/assets/images/brands/html-css.svg'),
 				},
 				{
 					id: 3,
 					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					img: require('@/assets/images/brands/java.svg'),
 				},
 				{
 					id: 4,
 					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					img: require('@/assets/images/brands/js.svg'),
 				},
 				{
 					id: 5,
 					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
+					img: require('@/assets/images/brands/python.svg'),
 				},
 				{
 					id: 6,
 					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
+					img: require('@/assets/images/brands/mysql.svg'),
 				},
 				{
 					id: 7,
 					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
+					img: require('@/assets/images/brands/react.svg'),
 				},
 				{
 					id: 7,
 					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					img: require('@/assets/images/brands/sql.svg'),
 				},
 			],
 		};
@@ -67,6 +67,7 @@ export default {
 				v-for="client in clients"
 				:key="client.id"
 				:client="client"
+				class="transform scale-75"
 			/>
 		</div>
 	</div>

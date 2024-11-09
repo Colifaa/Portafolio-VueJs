@@ -6,12 +6,17 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						"Hola, Soy Mathez Jorge Alí "
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'Como desarrollador web, estoy comprometido a crear sitios web de alta calidad. aplicaciones que satisfagan las necesidades de mis clientes. Con años de experiencia en desarrollo web full-stack, me especializo en el uso de React.js, Next js, JavaScript, Solidity, MongoDB, Express.js y Node.js para crear aplicaciones web escalables y robustas.',
+				},
+				{
+					id: 3,
+					bio:
+						'con experiencia en distintas tecnologías de desarrollo web como HTML, CSS, Javascript, React, Redux, Node.js, SQL React.js, Next js, MongoDB, Express.js.💻 Además de mi experiencia en desarrollo web, también tengo habilidades adicionales que me hacen un candidato aún más valioso para cualquier proyecto, como la música y el trading de criptomonedas. 📈📊🎸🎧',
 				},
 			],
 		};
@@ -20,25 +25,21 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-		<!-- About profile image -->
-		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-			<img
-				src="@/assets/images/profile.jpeg"
-				class="rounded-xl w-96"
-				alt=""
-			/>
-		</div>
+  <div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
+    <!-- About profile image -->
+    <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+      <img src="../../assets/images/Jorge.png" class="rounded-xl w-96" alt="" />
+    </div>
 
-		<!-- About details -->
-		<div class="w-full sm:w-3/4 text-left">
-			<p
-				v-for="bio in bios"
-				:key="bio.id"
-				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-			>
-				{{ bio.bio }}
-			</p>
-		</div>
-	</div>
+    <!-- About details -->
+    <div class="w-full sm:w-3/4 text-left">
+      <p
+        v-for="bio in bios"
+        :key="bio.id"
+        class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+      >
+        {{ bio.bio }}
+      </p>
+    </div>
+  </div>
 </template>
